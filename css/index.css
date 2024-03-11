@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+header{
+    width: 100%;
+    height: 50vw;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgb(0 0 0 / 50%)), url(../images/fundo2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ul{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+li{
+    color: white;
+    font-size: 20px;
+    list-style-type: none;
+    margin-top: 2rem;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.divHeader{
+    min-height: 20px;
+}
+
+#textHeader{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    animation: fade-up 1.5s;
+}
+
+h1{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: white;
+    font-size: 4vw;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-weight: 300;
+}
+
+strong{
+    color: #546b5d;
+}
+
+.btnsHeader{
+    width: 10rem;
+    height: 5vh;
+    margin-right: 20px;
+    border: 2px solid #6D997E;
+    background-color: #6D997E;
+    border-radius: 200px;
+    font-size: 16px;
+    color: white;
+
+    transition: 0.2s;
+}
+
+.btnVerMais{
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 15px;
+    width: 5rem;
+    height: 2vw;
+
+    transition: 0.2s;
+}
+
+.btnVerMais:hover{
+    background-color: #546b5d;
+    border: #546b5d;
+    cursor: pointer;
+}
+
+.btnsHeader2{
+    width: 10rem;
+    height: 5vh;
+    margin-right: 20px;
+    border: 2px solid #6D997E;
+    background-color: transparent;
+    border-radius: 200px;
+    font-size: 16px;
+    color: #6D997E;
+
+    transition: 0.3s;
+}
+
+.btnsHeader2:hover{
+    color: white;
+    background-color: #546b5d;
+    border: #546b5d;
+    cursor: pointer;
+}
+
+.btnsHeader:hover{
+    cursor: pointer;
+    background-color: #546b5d;
+    border: #546b5d;
+}
+
+#objectivesSection{
+    margin-top: 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#objectivesSection h1{
+    color: black;
+    font-weight: 300;
+}
+
+#categoriesSection{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#categoriesSection h1{
+    margin-top: 2rem;
+}
+
+#categoriesSection h1{
+    color: black;
+    font-weight: 300;
+}
+
+.barrinha1{
+    margin-top: 3rem;
+    border-top: solid 2px #6D997E;
+    width: 65vw;
+}
+
+.dsSection{
+    font-size: 18px;
+    width: 75%;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+#objectivesSection main{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cardObjetivo{
+    width: 18%;
+}
+
+.cardObjetivo p{
+    text-align: left;
+    font-size: 18px;
+}
+
+.cardObjetivo h2{
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.cardObjetivo i{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#aboutSection{
+    width: 75%;
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.aboutText{
+    background-color: white;
+    border-radius: 5%;
+    width: 35%;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 15%) 0px 2px 8px;
+    z-index: 2;
+    height: 20vw;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: absolute;
+    margin: 50px 50px 50px 35vw;
+}
+
+.aboutText p{
+    font-size: 18px;
+    width: 100%;
+}
+
+#Aboutimage{
+    width: 75%;
+    border-radius: 5%;
+    height: 35vw;
+}
+
+.aboutImage{
+    width: 100%;
+    height: 50%;
+    z-index: 1;
+}
+
+.aboutText h3{
+    font-size: 30px;
+    margin-top: 3vw;
+    margin-bottom: 2rem;
+}
+
+.comp{
+    width: 100%;
+}
+
+#categoriesSection main{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#main2{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -3rem;
+}
+
+.cardCategoria{
+    width: 16rem;
+    border-radius: 5%;
+    text-align: left;
+    margin-bottom: 5vw;
+    border: 1px solid #857676;
+    transition: 0.5s;
+    padding: 20px;
+    box-shadow: 5px 10px #888888;
+}
+
+
+
+#categoryImage{
+    width: 100%;
+    height: 15rem;
+    border-radius: 5%;
+}
+
+.imageCategory{
+    margin-bottom: 1vw;
+}
+
+h4{
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+#comentsSection{
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 40vw;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgb(0 0 0 / 50%)), url(../images/fundo2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 5rem;
+}
+
+#display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#comentsSection main{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cardComentario{
+    width: 30%;
+    text-align: left;
+}
+
+.cardComentario p{
+    font-size: 1.3vw;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;  
+}
+
+.cardComentario i{
+    font-size: 2rem;
+}
+
+.barrinha{
+    margin-top: -4rem;
+    border-top: solid 2px white;
+    width: 18rem;
+    margin-bottom: 7rem;
+}
+
+#comentsSection h1{
+    font-size: 3vw;
+    padding-top: 5rem;
+    margin-bottom: 5vw;
+}
+
+footer p{
+    font-size: 18px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 7vw;
+    background-color: #546b5d;
+}
+
+@keyframes fade-up {
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+nav{
+    animation: fade-up 1.5s;
+}
+
+.cardObjetivo{
+    visibility: hidden;
+}
+
+#contactSection{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+#contactSection h1{
+    color: black;
+}
+
+form{
+    padding: 20px;
+}
+
+.texts{
+    width: 30rem;
+    padding: 10px;
+}
+
+.text:focus, .texts:focus{
+    outline: none;
+}
+
+.text{
+    height: 2rem;
+    margin-bottom: 2rem;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+#txtArea{
+    border-radius: 10px;
+    height: 10rem;
+    resize: none;
+    margin-bottom: 1rem;
+}
+
+aside{
+    background-color: #546b5d;
+    padding: 30px;
+    border-radius: 20px;
+    min-height: 100%;
+    width: 20rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+#contactDiv{
+    margin-top: 2rem;
+    box-shadow: rgb(0 0 0 / 15%) 0px 2px 8px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+h5{
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+#redesSociais{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-around;
+}
+
+#redesSociais i{
+    font-size: 18px;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  } 
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #6D997E;    /* color of the scroll thumb */
+    border-radius: 50px;       /* roundness of the scroll thumb */  }
+    
+html{
+    scroll-behavior: smooth;
+}
+
+.cardCategoria:hover{
+    cursor: pointer;
+    box-shadow: rgb(0 0 0 / 41%) 0px 2px 20px;
+    transition: 1.7s;
+}
+
+#redesSociais p i:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1115px){
+    nav{
+        display: none;
+    }
+
+    header{
+        height: 32rem;
+    }
+
+    .aboutText p{
+        display: none;
+    }
+
+    .btnVerMais{
+        height: 4vh;
+    }
+} 
+
+@media screen and (max-width: 1000px){
+    nav{
+        display: none;
+    }
+
+    header{
+        height: 32rem;
+    }
+
+    .cardObjetivo{
+        width: 30%;
+        margin-bottom: 5vh;
+        
+    }
+
+    #objectivesSection main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #categoriesSection main{
+        flex-direction: column;
+    }
+
+    form{
+        width: 45vw;
+    }
+
+    aside{
+        width: 35vw;
+    }
+} 
+
+@media screen and (max-width: 600px){
+    nav{
+        display: none;
+    }
+
+    header{
+        height: 32rem;
+    }
+
+    .cardObjetivo{
+        width: 45%;
+        margin-bottom: 5vh;
+        
+    }
+
+    #objectivesSection main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutText p{
+        display: none;
+    }
+
+    .aboutText h3{
+        font-size: 4vw;
+    }
+
+    #aboutSection{
+        flex-direction: column;
+    }
+
+    .aboutText{
+        position: relative;
+    }
+} 
