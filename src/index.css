@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-s: "M PLUS Rounded 1c", Static; 
+}
+
+@keyframes fade-up {
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+
+.fade-up {
+    animation: fade-up 1s ease-out forwards;
+  }
+
+*{
+    font-family: "M PLUS Rounded 1c", Static;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
